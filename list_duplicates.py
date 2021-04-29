@@ -10,7 +10,7 @@ it only if it is not a duplicate of a number already read.
 item = input("Enter list item:")
 my_list = list(())
 i = 0
-while i < 5:
+while i < 20:
     if item not in my_list:
         my_list.append(item)
         item = input("Enter list item:")
